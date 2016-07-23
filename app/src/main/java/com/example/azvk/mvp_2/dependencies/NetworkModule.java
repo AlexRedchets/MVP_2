@@ -1,4 +1,4 @@
-package com.example.azvk.mvp_2.dependency_injection;
+package com.example.azvk.mvp_2.dependencies;
 
 import javax.inject.Singleton;
 
@@ -18,11 +18,13 @@ public class NetworkModule {
     }
 
     @Provides
+    @Singleton
     RxJavaCallAdapterFactory provideRxJavaCallAdapterFactory(){
         return RxJavaCallAdapterFactory.create();
     }
 
     @Provides
+    @Singleton
     GsonConverterFactory provideGsonConverterFactory(){
         return GsonConverterFactory.create();
     }

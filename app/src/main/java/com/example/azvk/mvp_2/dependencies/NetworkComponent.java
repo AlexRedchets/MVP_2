@@ -1,8 +1,11 @@
-package com.example.azvk.mvp_2.dependency_injection;
+package com.example.azvk.mvp_2.dependencies;
+
+import javax.inject.Singleton;
 
 import dagger.Component;
 import retrofit2.Retrofit;
 
+@Singleton
 @Component(modules = NetworkModule.class)
 public interface NetworkComponent {
     Retrofit retrofit();

@@ -1,4 +1,4 @@
-package com.example.azvk.mvp_2.dependency_injection;
+package com.example.azvk.mvp_2.dependencies;
 
 import com.example.azvk.mvp_2.service.PlayerService;
 
