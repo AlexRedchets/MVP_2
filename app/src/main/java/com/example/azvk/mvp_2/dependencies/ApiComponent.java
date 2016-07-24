@@ -1,6 +1,6 @@
 package com.example.azvk.mvp_2.dependencies;
 
-import com.example.azvk.mvp_2.MainActivity;
+import com.example.azvk.mvp_2.ui.MainActivity;
 
 import dagger.Component;
 

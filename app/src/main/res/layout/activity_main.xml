@@ -5,7 +5,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.azvk.mvp_2.MainActivity">
+    tools:context="com.example.azvk.mvp_2.ui.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
