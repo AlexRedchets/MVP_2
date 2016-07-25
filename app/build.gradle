@@ -43,4 +43,14 @@ dependencies {
     compile 'com.google.dagger:dagger:2.1'
     provided 'org.glassfish:javax.annotation:10.0-b28'
 
+    //RecycleView
+    compile 'com.android.support:recyclerview-v7:24.0.0'
+
+    //Circle Images
+    compile 'de.hdodenhof:circleimageview:1.2.1'
+
+    //Butterknife
+    compile 'com.jakewharton:butterknife:8.2.1'
+    apt 'com.jakewharton:butterknife-compiler:8.2.1'
+
 }
